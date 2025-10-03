@@ -6,6 +6,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 25px;
+  align-content: center;
 }
 
 .quadrado-planos-ouro::after {
@@ -28,6 +30,10 @@
   left: -34px;
 }
 
+.quadrado-planos .small-gray {
+  text-align: start;
+}
+
 .quadrado-planos-ouro {
   border: 1px solid #ffd700;
   width: 376px;
@@ -36,6 +42,7 @@
   flex-direction: column;
   justify-content: center;
   position: relative;
+  padding: 25px;
 }
 
 .content-planos {
@@ -43,15 +50,43 @@
   grid-template-columns: 1fr 1fr 1fr;
   max-width: 1200px;
   gap: 30px;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   margin-top: 200px;
+  position: relative;
+  /* border: 2px solid blue; */
 }
 
 #planos {
   max-width: 1200px;
   margin: 0 auto;
+  /* border: 2px solid red; */
 }
 
 .quadrado-planos-ultimo {
   grid-column: 3;
+  position: relative;
+}
+
+.quadrado-planos-ultimo::after {
+  content: "";
+  height: 32px;
+  width: 1px;
+  background-color: #b2b2b2;
+  position: absolute;
+  top: -32px;
+  left: 50%;
+}
+
+.text {
+  grid-column: 1/ 3;
+  grid-row: 2;
+  /* border: 2px solid red; */
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.text p {
+  align-items: center;
+  display: flex;
 }
