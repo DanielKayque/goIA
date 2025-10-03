@@ -3,6 +3,7 @@
 
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
@@ -15,7 +16,7 @@ span {
 }
 
 header {
-  max-height: 80px;
+  height: 80px;
   color: #fff;
   max-width: 1200px;
   margin: 0 auto;
@@ -34,6 +35,8 @@ header::before {
   z-index: 2;
   opacity: 20%;
   position: absolute;
+  pointer-events: none;
+  overflow: hidden;
 }
 
 header p {
@@ -52,4 +55,32 @@ header nav a {
   color: #fff;
   font-family: "poppins";
   font-weight: medium;
+}
+
+@media (max-width: 1242px) {
+  header {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 455px) {
+  header nav {
+    flex-direction: column;
+    /* border: 2px solid red; */
+    margin-bottom: 20px;
+  }
+
+  header p {
+    /* border: 2px solid yellow; */
+  }
+
+  header {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid blue; */
+    gap: 0;
+    padding: 0;
+    justify-content: center;
+  }
 }
