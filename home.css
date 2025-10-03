@@ -38,7 +38,6 @@ section#home {
   position: absolute;
   right: -252px;
   top: 60px;
-  /* border: 2px solid red; */
   z-index: 4;
   width: 800px;
   height: 600px;
@@ -49,7 +48,6 @@ section#home {
 
 @media (max-width: 1242px) {
   .img-teste {
-    /* right: 0; */
     padding: 40px;
   }
   .content-texto {
@@ -62,6 +60,17 @@ section#home {
     flex-direction: column;
     height: auto;
     align-items: center;
+  }
+
+  .content-texto h1 {
+    font-size: 3.5rem;
+    line-height: 1.1;
+  }
+
+  p.small-gray {
+    font-size: 1rem;
+    max-width: 64ch;
+    text-align: center;
   }
 
   .btn-verde {
@@ -86,15 +95,12 @@ section#home {
   .content-texto {
     align-items: center;
     top: 0;
+    text-align: left;
   }
 
   p.small-gray {
     font-size: 0.9rem;
     max-width: 38ch;
-  }
-
-  section#home {
-    /* border: 2px solid red; */
   }
 
   .btn-verde {

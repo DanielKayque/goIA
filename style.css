@@ -70,10 +70,6 @@ header nav a {
     margin-bottom: 20px;
   }
 
-  header p {
-    /* border: 2px solid yellow; */
-  }
-
   header {
     height: auto;
     display: flex;
