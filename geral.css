@@ -9,6 +9,27 @@ h1.branco-semibold {
   line-height: 1.1;
 }
 
+section#planos h1.branco-semibold span {
+  line-height: 1.2;
+}
+section#planos h1.branco-semibold {
+  max-width: 14ch;
+}
+
+.branco-semibold-32 {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 2rem;
+  font-weight: 600;
+  /* max-width: 4ch; */
+}
+
+.branco-medium {
+  color: #fff;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
 p.small-gray {
   color: #b2b2b2;
   font-size: 1.5rem;

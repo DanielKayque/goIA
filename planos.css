@@ -1,0 +1,57 @@
+.quadrado-planos,
+.quadrado-planos-ultimo {
+  border: 1px solid #b2b2b2;
+  width: 376px;
+  height: 366px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quadrado-planos-ouro::after {
+  content: "";
+  height: 1px;
+  width: 33px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  right: -34px;
+}
+
+.quadrado-planos-ouro::before {
+  content: "";
+  height: 1px;
+  width: 33px;
+  background-color: #b2b2b2;
+  position: absolute;
+  top: 50%;
+  left: -34px;
+}
+
+.quadrado-planos-ouro {
+  border: 1px solid #ffd700;
+  width: 376px;
+  height: 366px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.content-planos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1200px;
+  gap: 30px;
+  border: 2px solid blue;
+  margin-top: 200px;
+}
+
+#planos {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.quadrado-planos-ultimo {
+  grid-column: 3;
+}
