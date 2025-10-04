@@ -57,7 +57,7 @@
 }
 
 #planos {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   position: relative;
   height: auto;
   padding-bottom: 20px;
@@ -180,8 +180,11 @@
 @media (max-width: 455px) {
   h1.branco-semibold {
     font-size: 2rem;
+    text-align: center;
     /* border: 2px solid red; */
+    margin: 0 auto;
   }
+
   p.branco-semibold-32 {
     font-size: 1.2rem;
   }

@@ -52,3 +52,24 @@ p.small-gray {
   font-size: 1.125rem;
   margin-top: 10px;
 }
+
+.btn-verde:hover {
+  background: linear-gradient(to top, #accf00, #b2e004);
+  cursor: pointer;
+  color: #fff;
+}
+
+.btn-branco {
+  background-color: #fff;
+  align-self: flex-start;
+  padding: 0.825rem 2rem;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: black;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 1.125rem;
+  margin-top: 10px;
+}

@@ -5,7 +5,7 @@ section#home {
   display: flex;
   position: relative;
   align-items: start;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   overflow: hidden;
 }
 
@@ -24,6 +24,7 @@ section#home {
   z-index: 2;
   opacity: 6%;
   overflow: hidden;
+  pointer-events: none;
 }
 
 .content-texto {
