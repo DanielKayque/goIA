@@ -57,9 +57,38 @@
 }
 
 #planos {
+  border: 2px solid red;
+  position: relative;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+#content-planos {
   max-width: 1200px;
   margin: 0 auto;
-  /* border: 2px solid red; */
+  /* border: 2px solid blue; */
+}
+
+#planos::after {
+  content: "";
+  background-image: url(./imagens/efeito-lateral-direita.png);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -100px;
+  right: 0;
+  opacity: 25%;
+}
+
+#planos::before {
+  content: "";
+  background-image: url(./imagens/efeito-lateral.png);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  opacity: 25%;
 }
 
 .quadrado-planos-ultimo {
