@@ -124,8 +124,9 @@
 
 @media (max-width: 1244px) {
   .content-planos {
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
+    padding: 20px;
   }
 
   h1.branco-semibold {
@@ -133,8 +134,8 @@
   }
 
   .quadrado-planos-ultimo {
-    grid-column: 2;
-    grid-row: 1;
+    /* grid-column: 2;
+    grid-row: 1; */
   }
   .quadrado-planos-ouro::after,
   .quadrado-planos-ouro::before,
@@ -146,6 +147,16 @@
 @media (max-width: 1190px) {
   .content-planos {
     justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .quadrado-planos-ultimo {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .quadrado-planos-ultimo {
+    grid-column: 2;
+    grid-row: 1;
   }
 }
 
@@ -170,6 +181,9 @@
   h1.branco-semibold {
     font-size: 2rem;
     /* border: 2px solid red; */
+  }
+  p.branco-semibold-32 {
+    font-size: 1.2rem;
   }
 
   p.small-gray {
