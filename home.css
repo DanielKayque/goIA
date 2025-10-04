@@ -5,7 +5,7 @@ section#home {
   display: flex;
   position: relative;
   align-items: start;
-  /* border: 2px solid blue; */
+  border: 2px solid blue;
   overflow: hidden;
 }
 
@@ -72,11 +72,14 @@ section#home {
   }
 }
 
-@media (max-width: 968px) {
+@media (max-width: 990px) {
   section#home {
     flex-direction: column;
     height: auto;
     align-items: center;
+  }
+  .content-texto {
+    top: 0;
   }
 
   .content-texto h1 {
@@ -99,7 +102,6 @@ section#home {
     width: 1200px;
     height: 800px;
     display: flex;
-    margin-top: 200px;
   }
 }
 
@@ -139,6 +141,12 @@ section#home {
     margin-top: 0;
     gap: 0;
     padding: 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .content-texto h1 {
+    line-height: 1.125;
   }
 }
 

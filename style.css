@@ -67,8 +67,8 @@ header nav a {
 @media (max-width: 455px) {
   header nav {
     flex-direction: column;
-    /* border: 2px solid red; */
-    margin-bottom: 20px;
+    border: 2px solid red;
+    /* margin-bottom: 20px; */
   }
 
   header {

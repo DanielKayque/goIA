@@ -1,8 +1,8 @@
 .quadrado-planos,
 .quadrado-planos-ultimo {
   border: 1px solid #b2b2b2;
-  width: 376px;
-  height: 366px;
+  max-width: 376px;
+  max-height: 366px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -36,8 +36,8 @@
 
 .quadrado-planos-ouro {
   border: 1px solid #ffd700;
-  width: 376px;
-  height: 366px;
+  max-width: 376px;
+  max-height: 366px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -78,6 +78,7 @@
   top: -100px;
   right: 0;
   opacity: 25%;
+  z-index: 2;
 }
 
 #planos::before {
@@ -89,6 +90,7 @@
   bottom: 0;
   right: 0;
   opacity: 25%;
+  z-index: 2;
 }
 
 .quadrado-planos-ultimo {
@@ -118,4 +120,63 @@
 .text p {
   align-items: center;
   display: flex;
+}
+
+@media (max-width: 1244px) {
+  .content-planos {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  h1.branco-semibold {
+    margin-left: 20px;
+  }
+
+  .quadrado-planos-ultimo {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .quadrado-planos-ouro::after,
+  .quadrado-planos-ouro::before,
+  .quadrado-planos-ultimo::after {
+    display: none;
+  }
+}
+
+@media (max-width: 1190px) {
+  .content-planos {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 970px) {
+  .quadrado-planos,
+  .quadrado-planos-ouro,
+  .quadrado-planos-ultimo {
+    max-width: 376px;
+    max-height: 366px;
+  }
+
+  .content-planos {
+    margin-top: 40px;
+  }
+
+  h1.branco-semibold {
+    text-align: center;
+  }
+}
+
+@media (max-width: 455px) {
+  h1.branco-semibold {
+    font-size: 2rem;
+    /* border: 2px solid red; */
+  }
+
+  p.small-gray {
+    font-size: 0.9rem;
+    max-width: 38ch;
+  }
+  #planos {
+    margin-top: 20px;
+  }
 }
