@@ -1,0 +1,48 @@
+.content-assinaturas {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+.assinatura-mensal {
+  border: 1px solid #b2b2b2;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 600px;
+  min-width: 400px;
+  gap: 10px;
+}
+
+.assinatura-mensal .btn-verde,
+.assinatura-anual .btn-verde {
+  align-self: center;
+}
+
+.assinatura-mensal p.small-gray::before {
+  content: url();
+}
+
+.assinatura-anual {
+  border: 1px solid #ffd700;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 600px;
+  min-width: 400px;
+  gap: 10px;
+}
+
+.assinaturas-opcoes {
+  display: flex;
+  border: 2px solid red;
+  align-items: center;
+  /* height: 800px; */
+  justify-content: center;
+  gap: 30px;
+  padding: 80px;
+}
