@@ -53,6 +53,32 @@ p.small-gray {
   margin-top: 10px;
 }
 
+.btn-amarelo {
+  background-color: #ffd700;
+  padding: 0.825rem 2rem;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: black;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 1.125rem;
+  margin-top: 10px;
+}
+
+.roboto-semibold-48 {
+  font-family: "Roboto";
+  font-size: 3rem;
+  font-weight: 600;
+  color: white;
+}
+
+.btn-amarelo:hover {
+  background-color: #d6990a;
+  color: white;
+}
+
 .btn-verde:hover {
   background: linear-gradient(to top, #accf00, #b2e004);
   cursor: pointer;

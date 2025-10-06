@@ -21,8 +21,21 @@
   align-self: center;
 }
 
+.assinatura-mensal p.small-gray {
+  position: relative;
+}
+
 .assinatura-mensal p.small-gray::before {
-  content: url();
+  content: "";
+  /* background-image: url(./imagens/verificar-amarelo.png); */
+  background-image: url(./imagens/verificar\ teste.svg);
+  width: 32px;
+  height: 32px;
+  display: block;
+  display: inline-flex;
+  margin-right: 10px;
+  background-size: contain;
+  /* border: 2px solid red; */
 }
 
 .assinatura-anual {
@@ -35,6 +48,20 @@
   min-height: 600px;
   min-width: 400px;
   gap: 10px;
+}
+
+.assinatura-anual p.small-gray::before {
+  content: "";
+  /* background-image: url(./imagens/verificar-amarelo.png); */
+  background-image: url(./imagens/verificar\ teste.svg);
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  margin-right: 10px;
+  /* position: absolute; */
+  /* left: -40px; */
+  background-size: contain;
+  /* border: 2px solid red; */
 }
 
 .assinaturas-opcoes {
