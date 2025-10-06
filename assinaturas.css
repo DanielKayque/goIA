@@ -3,7 +3,7 @@
   margin: 0 auto;
   /* height: 800px; */
   /* border: 2px solid yellow; */
-  /* margin-top: 200px; */
+  margin-top: 200px;
 }
 
 .assinatura-mensal {
@@ -74,6 +74,17 @@
   justify-content: center;
   gap: 30px;
   padding: 80px;
+}
+
+.textos-superiores {
+  padding: 0px 40px;
+}
+
+/*REVISAR O PADDING DE TEXTOS H1 NO MONITOR*/
+@media (max-width: 1245px) {
+  .textos-superiores p.small-gray {
+    padding: 20px;
+  }
 }
 
 @media (max-width: 990px) {

@@ -2,6 +2,7 @@
 @import url(./home.css);
 @import url(./planos.css);
 @import url(./assinaturas.css);
+@import url(./footer.css);
 
 body {
   background-color: #000;

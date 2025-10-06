@@ -56,6 +56,10 @@
   /* border: 2px solid blue; */
 }
 
+#planos h1 {
+  padding: 40px;
+}
+
 #planos {
   /* border: 2px solid red; */
   position: relative;

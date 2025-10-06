@@ -1,71 +1,85 @@
-footer{
-    min-height: 500px;
-    width: 100%;
-    background-color: black;
+footer {
+  min-height: 500px;
+  width: 100%;
+  background-color: black;
+  padding: 40px;
 }
 
-.content-footer{
-    display: flex;
-    /* border: 2px solid brown; */
-    height: 100%;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-between;
-    padding: 40px 0;
+footer a.branco-semibold {
+  color: #fff;
+  font-family: "Poppins";
+  max-width: 18ch;
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1.1;
 }
 
-footer h2{
-    color: white;
-    font-size: 1.8rem;
+.content-footer {
+  display: flex;
+  /* border: 2px solid brown; */
+  height: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  padding: 40px 0;
 }
 
-i{
-    color: white;
+footer h2 {
+  color: white;
+  font-size: 1.8rem;
 }
 
-.redes-sociais{
-    display: flex;
-    font-size: 2rem;
-    gap: 30px;
+i {
+  color: white;
 }
 
-footer p, footer a{
-    font-size: 1.2rem;
-    color: var(--c5);
+.redes-sociais {
+  display: flex;
+  font-size: 2rem;
+  gap: 30px;
 }
 
-footer a{
-    display: flex;
+footer p,
+footer a {
+  font-size: 1.2rem;
+  color: white;
 }
 
-footer a:hover{
-    color: white;
+footer a {
+  display: flex;
+  font-weight: 200;
+}
+
+footer a:hover {
+  color: white;
 }
 
 .content-footer .contato,
-.content-footer .informacoes{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+.content-footer .informacoes {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
-.content-footer .contato  .address{
-    border-top: 2px solid rgba(178, 178, 178, 0.2);
-    border-bottom: 2px solid rgba(178, 178, 178, 0.2);
-    padding: 10px;
+.content-footer .contato .address {
+  border-top: 2px solid rgba(178, 178, 178, 0.2);
+  border-bottom: 2px solid rgba(178, 178, 178, 0.2);
+  padding: 10px;
 }
 
-@media (max-width: 644px){
-    .content-footer{
+@media (max-width: 670px) {
+  .content-footer {
+    align-items: center;
     flex-direction: column;
     gap: 40px;
-    }
-    .content-footer .contato  .address{
+    text-align: center;
+    /* justify-content: center; */
+  }
+  .content-footer .contato .address {
     border-top: none;
     border-bottom: none;
+  }
 }
-}
-
 
 /* Finalizei */
