@@ -78,6 +78,8 @@ section#home {
     flex-direction: column;
     height: auto;
     align-items: center;
+    /* border: 2px solid red; */
+    margin-bottom: 100px;
   }
   .content-texto {
     top: 0;

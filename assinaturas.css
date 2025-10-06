@@ -1,7 +1,9 @@
 .content-assinaturas {
   max-width: 1200px;
   margin: 0 auto;
-  margin-top: 200px;
+  /* height: 800px; */
+  /* border: 2px solid yellow; */
+  /* margin-top: 200px; */
 }
 
 .assinatura-mensal {
@@ -66,10 +68,62 @@
 
 .assinaturas-opcoes {
   display: flex;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   align-items: center;
   /* height: 800px; */
   justify-content: center;
   gap: 30px;
   padding: 80px;
+}
+
+@media (max-width: 990px) {
+  .assinaturas-opcoes {
+    text-align: center;
+    /* border: 2px solid red; */
+  }
+  .textos-superiores p.small-gray {
+    /* display: none; */
+    margin: 0 auto;
+  }
+
+  .content-assinaturas {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 862px) {
+  .assinatura-mensal,
+  .assinatura-anual {
+    min-width: auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 745px) {
+  .assinaturas-opcoes {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 455px) {
+  .assinaturas-opcoes {
+    text-align: center;
+  }
+  .btn-amarelo {
+    background-color: #ffd700;
+    padding: 0.625rem 1rem;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: black;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+
+  .roboto-semibold-48 {
+    font-size: 2.5rem;
+  }
 }
