@@ -11,26 +11,26 @@
   </head>
   <link rel="stylesheet" href="style.css" />
   <body>
-    <header>
+    <header id="header">
       <p><span>go</span>IA</p>
       <!-- <p>goIA</p> -->
       <div class="menu-mobile">
         <button class="btn-branco teste"></button>
         <nav class="mobile">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Serviços</a></li>
-          <li><a href="#">Contato</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#planos">Planos</a></li>
+          <li><a href="#contato">Contato</a></li>
         </nav>
       </div>
       <nav>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Serviços</a></li>
-        <li><a href="#">Contato</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#planos">Serviços</a></li>
+        <li><a href="#contato">Contato</a></li>
       </nav>
     </header>
 
     <div class="content-home">
-      <section id="home">
+      <section class="js-section" id="home">
         <div class="content-texto">
           <h1 class="branco-semibold">
             Economize <span>dinheiro</span> com seu whatsapp<span>.</span>
@@ -54,7 +54,7 @@
       </section>
     </div>
 
-    <section id="planos">
+    <section class="js-section" id="planos">
       <div id="content-planos">
         <h1 class="branco-semibold">
           Primeiros <span>passos</span> para seu futuro<span>:</span>
@@ -108,7 +108,7 @@
       </div>
     </section>
 
-    <section id="assinaturas-planos">
+    <section class="js-section" id="assinaturas-planos">
       <div class="content-assinaturas">
         <div class="textos-superiores">
           <h1 class="branco-semibold">Escolha seu <span>plano</span>:</h1>
@@ -153,10 +153,11 @@
         </div>
       </div>
     </section>
+
     <footer class="footer-style" id="contato">
       <div class="content-footer">
         <h1>
-          <a href="./index.html" class="branco-semibold"><span>go</span>IA</a>
+          <a href="#header" class="branco-semibold"><span>go</span>IA</a>
         </h1>
         <div class="contato">
           <h1 class="branco-semibold-32">Contato</h1>

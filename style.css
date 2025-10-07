@@ -3,9 +3,14 @@
 @import url(./planos.css);
 @import url(./assinaturas.css);
 @import url(./footer.css);
+@import url(./eventos-js.css);
 
 body {
   background-color: #000;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 * {

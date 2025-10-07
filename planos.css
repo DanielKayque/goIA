@@ -64,7 +64,7 @@
   /* border: 2px solid red; */
   position: relative;
   height: auto;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 
 #content-planos {
@@ -73,28 +73,31 @@
   /* border: 2px solid blue; */
 }
 
-#planos::after {
+/* #planos::after {
   content: "";
   background-image: url(./imagens/efeito-lateral-direita.png);
   width: 100%;
   height: 100%;
   position: absolute;
-  top: -100px;
-  right: 0;
-  opacity: 25%;
+  top: 0;
+  left: 0;
+  border: 2px solid blue;
+  opacity: 100%;
   z-index: 2;
-}
+} */
 
 #planos::before {
   content: "";
   background-image: url(./imagens/efeito-lateral.png);
   width: 100%;
+  background-repeat: no-repeat;
   height: 100%;
   position: absolute;
-  bottom: 0;
+  top: 0;
   right: 0;
   opacity: 25%;
   z-index: 2;
+  /* border: 2px solid red; */
 }
 
 .quadrado-planos-ultimo {
@@ -124,6 +127,11 @@
 .text p {
   align-items: center;
   display: flex;
+}
+@media (min-width: 1190px) {
+  #planos {
+    height: 1200px;
+  }
 }
 
 @media (max-width: 1244px) {
@@ -167,11 +175,16 @@
 @media (max-width: 990px) {
   section#assinaturas {
     margin-top: none;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
   }
   h1.branco-semibold {
     text-align: center;
     margin: 0 auto;
+  }
+
+  #planos::before {
+    /* transform: translateY(400px); */
+    background-size: cover;
   }
 }
 @media (max-width: 970px) {
