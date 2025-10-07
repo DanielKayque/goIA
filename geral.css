@@ -86,7 +86,7 @@ p.small-gray {
 }
 
 .btn-branco {
-  background-color: #fff;
+  background-color: transparent;
   align-self: flex-start;
   padding: 0.825rem 2rem;
   outline: none;

@@ -1,10 +1,10 @@
 section {
   opacity: 0;
-  transform: translateY(20px);
-  transition: opacity .6s ease forwards;
+  transform: translateX(-20px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
 }
 
 section.ativo {
   opacity: 1;
-  transform: translateY(0);
+  transform: translateX(0);
 }

@@ -16,7 +16,7 @@ let ticking = false;
 function initAnimationOpacity() {
   sections.forEach((section) => {
     const top = section.getBoundingClientRect().top;
-    const metade = window.innerHeight * 0.9;
+    const metade = window.innerHeight * 0.8;
     if (top < metade) {
       section.classList.add("ativo");
     } else {
