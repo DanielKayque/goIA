@@ -99,7 +99,9 @@ section#home {
   .btn-verde {
     align-self: center;
   }
-
+  a[href^="#assinatura"] {
+    align-self: center;
+  }
   .img-teste {
     position: static;
     width: 1200px;
