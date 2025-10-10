@@ -37,6 +37,10 @@ header {
   align-items: center;
 }
 
+header a {
+  color: #fff;
+}
+
 header::before {
   content: url(./imagens/detalhe-lateral-cima.png);
   width: 100%;
