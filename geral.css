@@ -24,6 +24,16 @@ section#planos h1.branco-semibold {
   /* max-width: 4ch; */
 }
 
+.branco-semibold-24 {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 1.5rem;
+  font-weight: 600;
+  position: relative;
+  margin-left: 12px;
+}
+
+
 .branco-medium {
   color: #fff;
   font-family: "Poppins";
@@ -36,6 +46,19 @@ p.small-gray {
   font-family: "Roboto";
   font-weight: 400;
   max-width: 44ch;
+}
+
+p.small-gray-perguntas {
+  color: #b2b2b2;
+  display: none;
+  font-size: 1.3rem;
+  font-family: "Roboto";
+  font-weight: 400;
+  max-width: 80ch;
+}
+
+p.small-gray-perguntas.ativo {
+  display: block;
 }
 
 .btn-verde {
